@@ -1,31 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JSSOne - Dashboard</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSSOne - Centralized Activities Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="signup.html">Sign Up</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="dashboard.html">Dashboard</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">JSSOne</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#impact">Impact</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="login.html" class="btn">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <section class="hero">
-        <h1>Welcome to JSSOne</h1>
-        <p>Your one-stop platform for all JSSATEN activities</p><br>
-        <br><br><br><br><br><br>
-    </section>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>JSSOne: Streamlining Campus Communication</h1>
+      <p>Your one-stop solution for managing activities, announcements, and events at JSS Noida.</p>
+      <a href="signup.html" class="btn">Get Started</a>
+    </div>
+  </section>
 
-    <footer>
-        <p>&copy; 2024 JSSOne. All rights reserved.</p>
-    </footer>
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About JSSOne</h2>
+      <p>
+        JSSOne is designed to bring together all activities on the JSS Noida campus under a single, centralized platform. 
+        Whether it's batch-specific lecture updates, club announcements, or trending campus buzz, JSSOne ensures every 
+        student and organizer stays informed and connected effortlessly.
+      </p>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <div class="container">
+      <h2>Features</h2>
+      <div class="feature-list">
+        <div class="feature-item">
+          <h3>Centralized Dashboard</h3>
+          <p>All your updates in one place, accessible anytime, anywhere.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Real-Time Notifications</h3>
+          <p>Never miss an update with email and in-app notifications.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Personalized Access</h3>
+          <p>Separate logins for students, CRs, BRs, and club secretaries.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Trending Section</h3>
+          <p>Stay up-to-date with the most liked and relevant campus activities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impact Section -->
+  <section id="impact" class="impact">
+    <div class="container">
+      <h2>Our Impact</h2>
+      <p>
+        JSSOne fosters a more connected and efficient campus environment, reducing miscommunication and bringing transparency
+        to all activities. Students stay informed, and organizers save time by streamlining communication.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Have questions or suggestions? We'd love to hear from you.</p>
+      <a href="mailto:jssone@jssaten.ac.in" class="btn">Email Us</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 JSSOne. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
